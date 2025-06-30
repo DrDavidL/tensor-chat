@@ -79,3 +79,5 @@ TensorZero Gateway plays a crucial role in this application by acting as an inte
 Feel free to explore the `app.py` and `config/tensorzero.toml` files to understand how the different components are integrated.
 
 ![alt text](<CleanShot 2025-06-29 at 21.45.10@2x.png>)
+
+![alt text](<CleanShot 2025-06-29 at 21.48.50@2x.png>)
