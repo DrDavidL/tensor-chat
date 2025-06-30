@@ -77,3 +77,5 @@ TensorZero Gateway plays a crucial role in this application by acting as an inte
 *   **Future Evaluations:** The architecture is set up to easily integrate advanced features like A/B testing different models or prompts, and conducting automated evaluations of model responses, all managed through TensorZero.
 
 Feel free to explore the `app.py` and `config/tensorzero.toml` files to understand how the different components are integrated.
+
+![alt text](<CleanShot 2025-06-29 at 21.45.10@2x.png>)
