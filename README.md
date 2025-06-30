@@ -51,6 +51,8 @@ Before you begin, ensure you have the following installed:
     ```bash
     docker compose up -d
     ```
+    **Important Note on ClickHouse Credentials:** For local development, default credentials (`chuser`/`chpassword`) are used. If you plan to deploy ClickHouse in a production or publicly accessible environment, it is crucial to change these default credentials to strong, unique passwords for security reasons.
+
     This will start the necessary backend services in detached mode.
 
 5.  **Ensure Ollama is Running (if using local models):**
