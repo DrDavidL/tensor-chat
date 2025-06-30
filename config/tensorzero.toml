@@ -1,0 +1,16 @@
+
+[functions.chat_app]
+type = "chat"
+
+[models.ollama_model]
+routing = ["ollama_provider"]
+
+[models.ollama_model.providers.ollama_provider]
+type = "openai" # Changed from "ollama"
+model_name = "gemma3n:e2b"
+api_base = "http://localhost:11434/v1" # Changed from base_url to api_base
+
+[functions.chat_app.variants.default_variant]
+type = "chat_completion"
+weight = 1.0
+model = "ollama_model"
